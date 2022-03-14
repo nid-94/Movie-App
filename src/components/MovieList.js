@@ -11,8 +11,8 @@ const MovieList = ({ input }) => {
     return (
         <div>
             <Add addMovie={addMovie} />
-
-            <div style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap" }}>
+            <br />
+            <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
                 {" "}
                 {movie
                     .filter(
